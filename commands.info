@@ -1,6 +1,0 @@
-# to build the container from the same directory as the Dockerfile
-docker build -t volatility2mint .
-
-# to run the container from a host directory with memory images present
-docker run -it --mount type=bind,source=.,target=/userspace volatility2mint
-
